@@ -11,6 +11,7 @@ header {
     color: white;
     text-align: center;
     padding: 1em;
+    border-radius: 8px;
 }
 
 nav ul {
@@ -55,17 +56,17 @@ section {
     background-color: #fff;
     padding: 15px;
     border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   }
   
 footer {
     background-color: #333;
     color: white;
     text-align: center;
-    padding: 1em;
-    position: fixed;
     bottom: 0;
     width: 100%;
+    border-radius: 8px;
+    margin: 15px auto;
 }
 
 /* Hamburger menu for smaller screens */
