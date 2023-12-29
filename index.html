@@ -9,6 +9,25 @@
 <body>
     <header>
         <h1>Ink into Black Black Into Ink</h1>
+        
+        <div class="menu-icon" onclick="toggleMenu()">☰</div>
+        <nav id="main-menu">
+            <ul class="dropdown-menu">
+                <li><a href="index.html">About</a></li>
+                <li><a href="writing.html">Writing</a></li>
+                <li><a href="mathematics.html">Mathematics</a></li>
+                <li><a href="photography.html">Photography</a></li>
+                <li><a href="drawing.html">Drawing</a></li>
+            </ul>
+        </nav>
+        
+        <script>
+            function toggleMenu() {
+                var menu = document.getElementById('main-menu');
+                menu.classList.toggle('show-menu');
+            }
+        </script>
+
         <nav>
             <ul>
                 <li><a href="index.html">About</a></li>
@@ -24,7 +43,7 @@
         <h2>Summary</h2>
         <p>Enthusiastic and dedicated professional with experience in both academic research and the IT industry. Skilled in mathematical concepts, test engineering, and system analysis. Proven ability to contribute effectively in collaborative research environments and deliver high-quality solutions in a corporate setting.</p>
     </section>
-    <section class="content">
+    <section>
         <!-- Your content about yourself -->
         <h2>About Site</h2>
         <!-- Your content about the site -->
