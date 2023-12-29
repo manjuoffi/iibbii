@@ -1,9 +1,7 @@
 body {
     font-family: 'Arial', sans-serif;
-    margin: 20px;
-    padding: 20px;
-    background-color: #f5f5f5;
-    color: #333;
+    margin: 0;
+    padding: 0;
 }
 
 header {
@@ -11,91 +9,36 @@ header {
     color: white;
     text-align: center;
     padding: 1em;
-    border-radius: 8px;
 }
 
 nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    display: flex;
-    justify-content: center;
 }
 
 nav li {
-   /* display: inline;
-    margin-right: 10px;*/
-    margin: 0 10px;
+    display: inline;
+    margin-right: 10px;
 }
 
 nav a {
     text-decoration: none;
     color: white;
-    padding: 10px 15px;
-    border-radius: 5px;
-    transition: background-color 0.3s ease;
-
-    /* Optional: Add a slight shadow on hover for a subtle effect */
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
-}
-
-nav a:hover {
-    background-color: #555;
 }
 
 section.content {
-    max-width: auto;
+    max-width: 800px;
     margin: 20px auto;
     padding: 20px;
 }
 
-section {
-    max-width: auto;
-    margin-top: 2%;
-    margin-bottom: 1%px;
-    background-color: #fff;
-    padding: 15px;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-  }
-  
 footer {
     background-color: #333;
     color: white;
     text-align: center;
+    padding: 1em;
+    position: fixed;
     bottom: 0;
     width: 100%;
-    border-radius: 8px;
-    margin: 15px auto;
-}
-
-/* Hamburger menu for smaller screens */
-.menu-icon {
-    display: none;
-    cursor: pointer;
-}
-
-@media screen and (max-width: 600px) {
-    nav ul {
-        display: none;
-        flex-direction: column;
-        align-items: center;
-    }
-
-    nav li {
-        margin: 10px 0;
-    }
-
-    .menu-icon {
-        display: block;
-    }
-}
-
-/* Styles for the dropdown menu */
-.dropdown-menu {
-    display: none;
-}
-
-.show-menu {
-    display: block;
 }
