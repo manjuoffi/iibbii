@@ -99,3 +99,20 @@ footer {
 .show-menu {
     display: block;
 }
+
+/* Add this style for the photo table */
+.photo-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .photo-table td {
+    padding: 8px;
+    text-align: center;
+  }
+  
+  .photo-table img {
+    max-width: 100%;
+    height: auto;
+  }
