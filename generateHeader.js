@@ -1,10 +1,29 @@
 var target = document.getElementById("myDiv");
-target.innerHTML += `<h1>Ink into Black Black Into Ink</h1> <div class='menu-icon' onclick='toggleMenu()'>☰</div> <nav class='main-menu'> <ul class='dropdown-menu' id='dropdown-menu'> <li><a href='index.html'>About</a></li> <li><a href='writing.html'>Writing</a></li> <li><a href='mathematics.html'>Mathematics</a></li> <li><a href='photography.html'>Photography</a></li> <li><a href='drawing.html'>Drawing</a></li> </ul> </nav> <nav> <ul> <li><a href='index.html'>About</a></li> <li><a href='writing.html'>Writing</a></li> <li><a href='mathematics.html'>Mathematics</a></li> <li><a href='photography.html'>Photography</a></li> <li><a href='drawing.html'>Drawing</a></li> </ul> </nav>`;
+target.innerHTML += `    <!-- Add Bootstrap Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <!-- Your Site Name -->
+    <a class="navbar-brand" href="index.html">Manjunatha M R Name</a>
 
-// Define toggleMenu globally
-function toggleMenu(){
-    var menu = document.getElementById('dropdown-menu');
-    //menu.style.display ='block'
-    var isMenuVisible = menu.style.display === 'block';
-    menu.style.display = isMenuVisible ? 'none' : 'block';
-  }
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+                <a class="nav-link" href="index.html">About</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="writing.html">Writing</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="mathematics.html">Mathematics</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="photography.html">Photography</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="drawing.html">Drawing</a>
+            </li>
+        </ul>
+    </div>
+</nav>`;
