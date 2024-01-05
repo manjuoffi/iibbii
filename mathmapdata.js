@@ -1,10 +1,10 @@
 const mathData = {
   "stories": [
     {
-      "title": "Math 1",
+      "title": "Trial 1",
       "author": "Math Author 1",
       "content": "Exploring equations...",
-      "url": "http://www.mathsite.com"
+      "url": "terminal.html"
     },
     {
       "title": "Math 2",
